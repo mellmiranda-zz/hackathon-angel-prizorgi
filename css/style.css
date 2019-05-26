@@ -1,6 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -19,6 +19,10 @@ h1{
 .btn__prizorgi{
     background-color: #57BC90;
     color: black;
+}
+
+.btn__prizorgi__resgatar{
+  margin-top: 30px;
 }
 
 @-webkit-keyframes myanimation {
@@ -115,6 +119,18 @@ ul.checkout-bar a {
   text-decoration: none;
 }
 
+.info__progresso{
+  margin-top: 30px;
+}
+.progresso{
+  margin: 10px auto;
+}
+.info__progresso__texto{
+  text-align: center;
+  font-weight: 900;
+  color: #777;
+}
+
 @media all and (min-width: 800px) {
   .checkout-bar li.active:after {
     -webkit-animation: myanimation 3s 0;
@@ -195,4 +211,22 @@ ul.checkout-bar a {
     width: 100%;
     z-index: 99;
   }
+
+  .progresso ul.checkout-bar li.visited:after{
+    width: 415%;
+  }
+
+  .progresso ul.checkout-bar li:nth-child(1):before {
+    content: '90%';
+    left: 460%;
+  }
+  .progresso ul.checkout-bar li:nth-child(2):before {
+    content: none;
+  }
+
+  .progresso .checkout-wrap{
+    display: none;
+  }
+
+
 }
