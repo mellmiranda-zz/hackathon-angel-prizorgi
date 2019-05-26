@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,900&display=swap" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
+        <title>Prizorgi - A Plataforma amiga das ONGs</title>
+    </head>
+    <body>
+    <form class="container col-md-8">
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Nome da Campanha de arrecadação:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" value="Brumadinho">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlFile1">Escolha a imagem da causa</label>
+            <input type="file" accept="image/*" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Descrição:</label>
+            <input class="form-control" id="exampleFormControlTextarea1" value="Ajude as vítimas de Brumadinho"></input>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Valor a ser arrecadado:</label><br>
+            <span>R$</span><input type="text" class="form-control" id="exampleFormControlInput1" value="50.0000,00">
+        </div>
+        <div>
+            <span>Data do término da Campanha:</span>
+            <input id="date" type="date">
+        </div>
+        <div class="button__form">
+            <button class="btn btn-teste btn-outline-secondary">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
