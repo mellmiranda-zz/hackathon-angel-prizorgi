@@ -2,25 +2,19 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-header{
-    background-color: #015249;
-    padding: 200px;
-}
 
 h1{
     font-weight: 900;
     font-size: 70px;
-    margin-bottom: 0;
-}
-.titulo{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 250px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1140px;
-}
-.subtitulo{
-    color: #77C9D4;
+    margin-bottom: 30px;
+    color: #015249;
+    margin-top: 60px;
 }
 
+.imagem-ong__prizorgi{
+    width: 90%;
+}
+.btn__prizorgi{
+    background-color: #57BC90;
+    color: black;
+}
